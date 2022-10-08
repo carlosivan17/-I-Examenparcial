@@ -13,7 +13,7 @@ public class ELhogar {
 		double depreciacionanual = 0;
 		
 		System.out.println("Ingrese el costo del activo: ");
-		camioneta  = sc.nextInt();
+		costodelactivo  = sc.nextInt();
 		System.out.println("Ingrese la vida util: ");
 		vidautil  = sc.nextInt();
 		System.out.println("Ingrese el valor residual: ");
