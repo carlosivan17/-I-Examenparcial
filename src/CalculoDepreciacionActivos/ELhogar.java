@@ -7,20 +7,20 @@ public class ELhogar {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		//Datos de Entrada
-		int camioneta;
+		int costodelactivo;
 		int vidautil;
 		int valorresidual;
 		double depreciacionanual = 0;
 		
-		System.out.println("Ingrese el costo de la camioneta: ");
+		System.out.println("Ingrese el costo del activo: ");
 		camioneta  = sc.nextInt();
-		System.out.println("Ingrese la vida util de la camioneta: ");
+		System.out.println("Ingrese la vida util: ");
 		vidautil  = sc.nextInt();
 		System.out.println("Ingrese el valor residual: ");
 		valorresidual  = sc.nextInt();
 		
 		//Procesamiento
-		depreciacionanual = (camioneta - valorresidual)/vidautil;
+		depreciacionanual = (costodelactivo - valorresidual)/vidautil;
 		
 		//Datos de salida
 		while(vidautil > 0) {
